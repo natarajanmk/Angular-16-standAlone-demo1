@@ -1,33 +1,21 @@
-<div class="main-container">
-  <button
-    id="dropdownMenuButton1"
-    data-bs-toggle="dropdown"
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#dropdownMenuButton1"
-    aria-controls="dropdownMenuButton1"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-    User Profile
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li [routerLink]="'./login'">Login</li>
-    <li [routerLink]="'./singup'">Signup</li>
-  </ul>
-</div>
-<!-- 
-<div class="main-container">
-  <nav>
-    <ul>
-      <li [routerLink]="'./home'">Home</li>
-      <li [routerLink]="'./products'">Products</li>
-      <li [routerLink]="'./contact-us'">Contact Us</li>
-      <li class="test">
-        <div><app-profile></app-profile></div>
-      </li>
+<div class="dropdown">
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Profile</button>
+    <button
+      id="dropdownMenuButton"
+      data-target="#dropdownMenuButton"
+      aria-controls="dropdownMenuButton"
+      data-bs-toggle="dropdown"
+      class="btn btn-primary dropdown-toggle dropdown-toggle-split"
+      type="button"
+      data-toggle="collapse"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    ></button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+      <li class="dropdown-item" [routerLink]="'./login'">Login</li>
+      <li class="dropdown-item" [routerLink]="'./singup'">Signup</li>
     </ul>
-  </nav>
-</div> -->
+  </div>
+</div>
