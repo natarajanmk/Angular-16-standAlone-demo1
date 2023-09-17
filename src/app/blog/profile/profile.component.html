@@ -1,0 +1,33 @@
+<div class="main-container">
+  <button
+    id="dropdownMenuButton1"
+    data-bs-toggle="dropdown"
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#dropdownMenuButton1"
+    aria-controls="dropdownMenuButton1"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+    User Profile
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li [routerLink]="'./login'">Login</li>
+    <li [routerLink]="'./singup'">Signup</li>
+  </ul>
+</div>
+<!-- 
+<div class="main-container">
+  <nav>
+    <ul>
+      <li [routerLink]="'./home'">Home</li>
+      <li [routerLink]="'./products'">Products</li>
+      <li [routerLink]="'./contact-us'">Contact Us</li>
+      <li class="test">
+        <div><app-profile></app-profile></div>
+      </li>
+    </ul>
+  </nav>
+</div> -->

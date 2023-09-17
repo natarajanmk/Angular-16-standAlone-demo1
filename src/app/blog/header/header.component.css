@@ -1,0 +1,22 @@
+.main-container nav {
+  background-color: #003300;
+}
+.main-container nav ul {
+  display: flex;
+}
+
+.main-container nav ul li {
+  list-style: none;
+  color: white;
+  padding: 15px 15px;
+  cursor: pointer;
+}
+.main-container nav ul li:hover {
+  background-color: #007070;
+  transition: all 1s;
+}
+
+.main-container nav ul li:last-child {
+  margin-left: auto;
+  transition: all 2s;
+}

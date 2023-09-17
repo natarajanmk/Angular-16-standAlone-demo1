@@ -1,0 +1,9 @@
+/* Add application styles & imports to this file! */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~bootstrap/dist/css/bootstrap.css';
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
