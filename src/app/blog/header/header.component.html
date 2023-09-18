@@ -1,9 +1,11 @@
 <div class="main-container">
   <nav>
     <ul>
-      <li [routerLink]="'./home'">Home</li>
-      <li [routerLink]="'./products'">Products</li>
-      <li [routerLink]="'./contact-us'">Contact Us</li>
+      <li [routerLink]="'./home'" routerLinkActive="active">Home</li>
+      <li [routerLink]="'./products'" routerLinkActive="active">Products</li>
+      <li [routerLink]="'./contact-us'" routerLinkActive="active">
+        Contact Us
+      </li>
       <li class="test">
         <div><app-profile></app-profile></div>
       </li>
